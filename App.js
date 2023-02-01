@@ -14,7 +14,7 @@ app.post('/emp', (req, res) => {
 app.post('/tax', (req, res) => {
     res.json({
         "EmployeeId" : req.body.EmployeeId,
-        "Tax" : 1000
+        "Tax" : 100
     })
   })
 
