@@ -7,7 +7,7 @@ app.post('/emp', (req, res) => {
     console.log("Request::::",req.body);
   res.json({
       "EmployeeId" : "11010",
-      "BasicSalary" : 100000
+      "BasicSalary" : 200000
   })
 })
 
