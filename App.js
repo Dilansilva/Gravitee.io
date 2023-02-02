@@ -12,6 +12,7 @@ app.post('/emp', (req, res) => {
 })
 
 app.post('/tax', (req, res) => {
+  console.log("TAX IS EXECUTED!!!:::",req.body);
     res.json({
         "EmployeeId" : req.body.EmployeeId,
         "Tax" : 100
